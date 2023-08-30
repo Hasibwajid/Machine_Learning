@@ -1,5 +1,3 @@
-'''
-
 import math
 
 import numpy as np
@@ -35,5 +33,3 @@ y = np.array([5,7,9,11,13,15])#LABLES
 
 gradient_descent(x,y)
 
-
-'''
