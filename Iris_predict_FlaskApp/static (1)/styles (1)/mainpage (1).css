@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: bisque;
+
+
+    }
+
+.form-group{
+      display:flex;
+      padding:80px;
+      border: 2px solid red;
+      border-radius: 30px;
+      }
+.area{
+     display:flex;
+
+     }
+input{
+    margin:5px;
+    border-radius:10px;
+    }
+
+.lable{
+    margin:3px;}
+
+button{
+    background-color: blue;
+       }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+</head>
+
+
+<body>
+
+        <form action='/predict' method='POST' class="form-group">
+            <div class="form-box">
+           <div class="area" >
+               <label class="lable "> sepal length: </label>
+               <input class="validate form-control"  name="sapleL" type="number">
+           </div>
+            <div class="area">
+               <label class="lable">sepal width: </label>
+               <input class="validate form-control"  name="sapleW" type="number" >
+           </div>
+            <div class="area">
+               <label class="lable">petal length: </label>
+               <input class="validate form-control"  name="petalL" type="number">
+           </div>
+            <div class="area">
+               <label class="lable">petal width: </label>
+               <input class="validate form-control"  name="petalW" type="number">
+           </div>
+                </div>
+            <button type="submit" name="submit">predict</button>
+        </form>
+
+    <h1 align="center">{{pred}}</h1>
+
+</body>
+
+</html>
